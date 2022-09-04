@@ -1,0 +1,151 @@
+body, html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+
+}
+
+body{
+    background-color: rgb(252,239,249);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(39,7,34);
+}
+
+a:visited {
+    color: rgb(122,111,155);
+}
+
+a:hover {
+    color: rgb(121,174,163);
+}
+  
+
+
+nav ul{
+    background-color: rgb(212,205,244);
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none; 
+    width: 100%;
+    padding: 5px;
+
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 15%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+header{
+    font-size: 50px ;
+    font-weight:lighter;
+    font-family: Georgia;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: -110px;
+}
+
+header h2{
+    margin-bottom: 0px;
+}
+
+#subheader{
+    font-weight: lighter;
+    text-align: center;
+    background-color: rgb(122,111,155);
+    margin-top:0px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+
+
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+article h1{
+    padding-left: 10%;
+    font-family: monospace;
+    margin-bottom: 0px;
+    color: rgb(39,7,34);
+}
+
+article hr{
+
+    border: solid;
+    border-color:rgb(212,205,244);
+}
+
+
+figure{
+    float: left;
+    color: rgb(122,111,155);
+
+}
+
+#movie-pic{
+    width:150px;
+}
+
+footer{
+    margin-top: 10%;
+    padding-bottom: 20px;
+    float:bottom;
+    overflow-x: hidden;
+}
+
+#aboutme{
+    margin-top: 50px;
+    margin-right:150px;
+    margin-left: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    border-radius: 25px;
+    background-color: rgb(121,174,163);
+}
+
+#bookrecs{
+    margin-top: 50px;
+    margin-right:150px;
+    margin-left: 150px;
+    padding: 50px;
+
+    border-radius: 25px;
+    background-color: rgb(121,174,163);
+}
+
+#contactme{
+    color: rgb(121,174,163);
+    margin-top: 50px;
+    margin-right:300px;
+    margin-left: 300px;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgb(39,7,34);
+}
+
+textarea, input{
+    color: rgb(121,174,163);
+    background-color: rgb(122,111,155);
+}
+
+::placeholder { 
+    color:  rgb(39,7,34);
+  }
